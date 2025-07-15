@@ -1,0 +1,36 @@
+:root {
+  /* Color palette */
+  --primary-color: #2F5249;
+  --secondary-color: #819067;
+  --background-color: #97B067;
+  --text-color: #E3DE61;
+  --accent-color: #58A0C8;
+
+  /* Font settings */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --heading-font-size: 2rem;
+  --body-font-size: 1rem;
+
+  /* Spacing */
+  --section-padding: 2rem;
+  --element-gap: 1rem;
+
+  /* Border radius */
+  --border-radius: 8px;
+
+  /* Shadows */
+  --shadow-small: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 0 8px var(--secondary-color);
+
+  /* Transition */
+  --transition-speed: 0.3s;
+
+  /* Movement */
+  --movement-small: 10px;
+  --movement-medium: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

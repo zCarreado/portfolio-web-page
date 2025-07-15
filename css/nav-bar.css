@@ -1,0 +1,64 @@
+/* Block: navbar */
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  overflow-x: hidden;
+  width: 100%;
+  top: 0;
+  box-shadow: var(--shadow-small);
+  box-sizing: border-box;
+  z-index: 1;
+
+}
+
+#navbar-placeholder {
+  display: flex;
+  width: 100vw;
+  height: 60px;
+}
+
+.navbar__container {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar__list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  /* could add margin or padding if needed */
+}
+
+.navbar__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all var(--transition-speed);
+  font-weight: 700;
+}
+
+.navbar__link:hover {
+  color: var(--accent-color);
+  padding: 0 var(--movement-small);
+}
+
+/* Modifier */
+.navbar__link--highlight {
+  color: var(--accent-color);
+  font-weight: bold;
+}
