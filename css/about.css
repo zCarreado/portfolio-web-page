@@ -1,0 +1,27 @@
+.dotted-decoration {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 10px;
+    left: 80px;
+    background-image: radial-gradient(black 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+.main__about {
+    position: relative;
+    left: 400px;
+    top: -70px;
+    color: var(--primary-color);
+    background-color: #f5deb3AA; 
+    border-radius: 10px;
+    padding-left: var(--section-padding);
+}
+
+.main__about > h3{
+    display: block;
+}
+
+.main__about > p {
+    width: 320px;
+}

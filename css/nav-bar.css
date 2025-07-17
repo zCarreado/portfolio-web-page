@@ -10,7 +10,7 @@
   box-shadow: var(--shadow-small);
   box-sizing: border-box;
   z-index: 1;
-
+  min-width: 450px;
 }
 
 #navbar-placeholder {
@@ -31,6 +31,11 @@
   font-weight: bold;
 }
 
+.navbar__logo > a {
+  text-decoration: none;
+  color: wheat;
+}
+
 .navbar__list {
   list-style: none;
   display: flex;
@@ -45,7 +50,7 @@
 }
 
 .navbar__link {
-  color: white;
+  color: wheat;
   text-decoration: none;
   font-weight: 500;
   transition: all var(--transition-speed);

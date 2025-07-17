@@ -1,0 +1,35 @@
+.main__container {
+    padding: var(--section-padding) 0;
+}
+
+.main__projects_item {
+    padding: var(--section-padding) 0;
+    background-color: var(--secondary-color);
+    width: 90%;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.main__projects_item > h2 {
+    padding: 0 var(--section-padding);
+} 
+
+.main__projects_item:nth-child(odd) {
+    background-color: var(--secondary-color);
+    direction: rtl;
+    margin-left: auto;
+    border-radius: 10px 0 0 10px;
+}
+
+.main__project_item_details{
+    display: flex;
+}
+.main__project_item_details > p {
+    padding: var(--section-padding);
+}
+
+.main__project_item_details > img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
